@@ -9,3 +9,7 @@ This project is inspried by https://sqlandhadoop.com/online-sql-to-pyspark-conve
 ### Covered
 
 ### Uncovered
+
+## Development
+
+python version : 3.7

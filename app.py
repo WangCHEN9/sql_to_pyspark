@@ -1,5 +1,5 @@
 import streamlit as st
-from components import PysparkOutput, GenerateButton, SqlInput
+from components import GenerateButton, SqlInput
 
 
 class App:
@@ -17,14 +17,8 @@ class App:
         st.header(f"sql to pyspark converter")
 
     def _main(self):
-
         SqlInput()
-
         GenerateButton()
-
-        placeholder = st.empty()
-
-        # PysparkOutput
 
 
 if __name__ == "__main__":
